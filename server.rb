@@ -1,7 +1,7 @@
 #server.rb
 require 'httparty'
-require ''
+require 'sinatra'
 
-do '/'
+get '/home' do
   erb :index
 end

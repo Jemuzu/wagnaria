@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 390px;
+  width: 100%;
+}
+
+.container {
+  border: 4px solid red;
+}
+
+li {
+  list-style-type: none;
+}
+
+.grid-container > div{
+  background: green;
+  padding: 2em;
+}
+
+.item1 {
+font-family: Calibri;
+font-size: 1.7em;
+text-align: center;
+}
+
+.item2 {
+font-family: Calibri;
+font-size: 1.7em;
+text-align: center;
+}
+
+.item3 {
+font-family: Calibri;
+font-size: 1.7em;
+text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 10px;
+  background-color: red;
+  grid-template-columns: 2fr 2fr 2fr 4fr;
+}
+
+.item4 {
+  font-family: Calibri;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: overline;
+}
+
+input {
+text-align: center;
+padding: 10px;
+width: 500px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
