@@ -1,7 +1,7 @@
 h1 {
-  font-family: Calibri;
+  font-family: URW Chancery L, cursive;
   text-align: center;
-  font-color: white;
+  color: #654321;
   margin: 0px;
 }
 
@@ -27,33 +27,33 @@ li {
 }
 
 .grid-container > div{
-  background: red;
+  background: #eeee2f;
   padding: 0.9em;
 }
 
 .item1 {
-font-family: Calibri;
+font-family: URW Chancery L, cursive;
 font-size: 1.7em;
 text-align: center;
 border: 2px solid pink;
 }
 
 .item2 {
-font-family: Calibri;
+font-family: URW Chancery L, cursive;
 font-size: 1.7em;
 text-align: center;
 border: 2px solid pink;
 }
 
 .item3 {
-font-family: Calibri;
+font-family: URW Chancery L, cursive;
 font-size: 1.7em;
 text-align: center;
 border: 2px solid pink;
 }
 
 .item4 {
-  font-family: Calibri;
+  font-family: URW Chancery L, cursive;
   font-size: 1.7em;
   text-align: center;
   border: 2px solid pink;
@@ -86,7 +86,7 @@ border-bottom-right-radius: 50px;
 }
 
 .banner{
-  background-color: #fadadd;
+  background-color: red;
 }
 
 .item1:hover {
@@ -111,5 +111,5 @@ border-bottom-right-radius: 50px;
 
 a {
   text-decoration: none;
-  color: brown;
+  color: #654321;
 }
