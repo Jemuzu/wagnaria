@@ -2,6 +2,6 @@
 require 'httparty'
 require 'sinatra'
 
-get '/home' do
+get '/' do
   erb :index
 end
