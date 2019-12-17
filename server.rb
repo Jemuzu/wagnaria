@@ -5,11 +5,11 @@ require 'sinatra'
 set :port, 2000
 #Setting port.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
-get '/#Foods' do
+get '/' do
   erb :index
 end
 
-get '/#Staff' do
+get '/#Mission' do
   erb :index
 end
 
