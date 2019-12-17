@@ -33,30 +33,34 @@ li {
 
 .item1 {
 font-family: URW Chancery L, cursive;
-font-size: 1.7em;
+font-size: 1.5em;
 text-align: center;
 border: 2px solid pink;
+border-bottom-color: black;
 }
 
 .item2 {
 font-family: URW Chancery L, cursive;
-font-size: 1.7em;
+font-size: 1.5em;
 text-align: center;
 border: 2px solid pink;
+border-bottom-color: black;
 }
 
 .item3 {
 font-family: URW Chancery L, cursive;
-font-size: 1.7em;
+font-size: 1.5em;
 text-align: center;
 border: 2px solid pink;
+border-bottom-color: black;
 }
 
 .item4 {
   font-family: URW Chancery L, cursive;
-  font-size: 1.7em;
+  font-size: 1.5em;
   text-align: center;
   border: 2px solid pink;
+  border-bottom-color: black;
 }
 
 .grid-container {
@@ -112,4 +116,14 @@ border-bottom-right-radius: 50px;
 a {
   text-decoration: none;
   color: #654321;
+}
+
+h2 {
+  text-align: center;
+}
+
+#Mission {
+  background-color: pink;
+  font-family: URW Chancery L, cursive;
+  font-size: 1.5em;
 }

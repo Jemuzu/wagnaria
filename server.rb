@@ -9,10 +9,6 @@ get '/#Foods' do
   erb :index
 end
 
-get '/#About' do
-  erb :index
-end
-
 get '/#Staff' do
   erb :index
 end
@@ -22,6 +18,5 @@ get '/Cookies' do
 
 end
 get '/Pastries' do
-  erb :cookies.erb
-
+  erb :Sweets.erb
 end
