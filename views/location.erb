@@ -1,39 +1,61 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <title></title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      #map {
+        height: 90%;
+        width:80
+      }
+      html, body {
+        height: 80%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div class="grid-container">
-      <div class="item1">
-        <li>
-          <a href="/">Home</a>
-        </li>
-      </div>
-      <div class="item2">
-        <li>
-          <a href="/">About</a>
-        </li>
-      </div>
-      <div class="item3">
-        <li>
-          <a href="/Pastries">Foods</a>
-        </li>
-      </div>
-      <div class="item4">
-        <li>
-          <a href="#Staff">Staff</a>
-        </div>
-        <div class="item5">
+  <body background="https://previews.123rf.com/images/perekotypole/perekotypole1605/perekotypole160500005/59184557-classic-checked-pink-watercolor-texture-watercolor-pink-checked-background-salmon-watercolor-checked.jpg">
+      <div class="grid-container">
+        <div class="item1">
           <li>
-            <a href="/location">Locations</a>
+            <a href="/">Home</a>
           </li>
         </div>
-      </div>
-    <h1 class="location-title">Locations around your area</h1>
-    <div class="text">
-      <p>Our many locations will assist you with your needs or problems and allow you to let off all your stress. We are at the ready to serve you and fufill your hunger or even have a chat with you about many problems that occur in your life. Just as
-        you're a friend AND customer to us, we're a friend and customer to you!
-      </p>
-    </div>
-  </body>
-</html>
+        <div class="item2">
+          <li>
+            <a href="#Mission">About</a>
+          </li>
+        </div>
+        <div class="item3">
+          <li>
+            <a href="/Pastries">Foods</a>
+          </li>
+        </div>
+        <div class="item4">
+          <li>
+            <a href="#Staff">Staff</a>
+          </div>
+          <div class="item5">
+            <li>
+              <a href="/location">Locations</a>
+            </li>
+          </div>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.703962, lng: -74.010455},
+          zoom: 8
+        });
+      }
+    </script>
+
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2z4TyAZF0WC-QFV6M_EcYSPMwarivb8I&callback=initMap">
+</script>
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=`${ENV['GOOGLE_MAPS_API']}`&libraries=places"></script> -->

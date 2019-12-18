@@ -25,10 +25,10 @@ class Cookies
   end
 end
 
-chocolate_Chip = Cookies.new("Chocolate Chip Cookies", "These tasty cookies are made with small bits of hershey kisses, while also being molded with care. These cookies will leave you hungry for more on our menu.", @price, "")
-oatmeal_Raisin = Cookies.new("Oatmeal Raisin Cookies", "These tasty cookies are made with small bits of raisins, while also being molded with care. These cookies will leave you hungry for more on our menu.", @price, "")
-plain_Oatmeal = Cookies.new("Oatmeal Cookies", "These tasty cookies are made with only oatmeal with decorations, These cookies will leave you hungry for more on our menu.", @price, "")
-christmas_Cookies = Cookies.new("Christmas Cookies", "These tasty cookies are made with small bits of hershey kisses, while also being molded with care. These cookies will leave you hungry for more on our menu.", @price, "")
+#chocolate_Chip = Cookies.new("Chocolate Chip Cookies", "These tasty cookies are made with small bits of hershey kisses, while also being molded with care. These cookies will leave you hungry for more on our menu.", @price, "")
+#oatmeal_Raisin = Cookies.new("Oatmeal Raisin Cookies", "These tasty cookies are made with small bits of raisins, while also being molded with care. These cookies will leave you hungry for more on our menu.", @price, "")
+#plain_Oatmeal = Cookies.new("Oatmeal Cookies", "These tasty cookies are made with only oatmeal with decorations, These cookies will leave you hungry for more on our menu.", @price, "")
+#christmas_Cookies = Cookies.new("Christmas Cookies", "These tasty cookies are made with small bits of hershey kisses, while also being molded with care. These cookies will leave you hungry for more on our menu.", @price, "")
 #Creating Pastry class and initializing it
 class Pastries
   attr_accessor :name, :type ,:desc, :price, :image
@@ -41,7 +41,3 @@ tarte_Tatin = Pastries.new("Tarte tatin", "Pastry", "These pastries are imported
 cinnamon_Rolls = Pastries.new("Cinnamon Rolls", "Frosted Pastry", "These are nicely made pastries with real cinnamon, from our renowned chefs, you will definitely enjoy these tasty treats.", @price, "")
 sweet_Tarts = Pastries.new("Sweet tarts", "Sweet Pastry", "Special Pastries", "30.99", "")
 #marking the completion of a function or method.
-
-@@Staff = [James, Gustavo, Luis, Micheal, Claire]
-@@Cookies = [chocolate_Chip, oatmeal_Raisin, plain_Oatmeal, christmas_Cookies]
-@@Pastries = [tarte_Tatin, cinnamon_Rolls, sweet_Tarts]

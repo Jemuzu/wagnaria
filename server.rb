@@ -3,6 +3,7 @@ require 'httparty'
 require 'sinatra'
 require 'geocoder'
 
+
 set :port, 2000
 #Setting port.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
@@ -12,6 +13,11 @@ end
 
 get '/#Mission' do
   erb :index
+end
+
+get '/#Staff' do
+  erb :index
+  puts @name
 end
 
 get '/location' do

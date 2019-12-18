@@ -140,10 +140,6 @@ a {
   color: #654321;
 }
 
-h2 {
-  text-align: center;
-  color: white;
-}
 
 #Mission {
   background-color: pink;
@@ -185,4 +181,10 @@ font-size: 2em;
 p {
   color: brown;
   float: left;
+}
+
+#Staff {
+  background-color: red;
+  text-align: center;
+  color: white;
 }
