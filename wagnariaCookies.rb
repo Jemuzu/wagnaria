@@ -37,7 +37,5 @@ class Pastries
   end
 end
 
-tarte_Tatin = Pastries.new("Tarte tatin", "Pastry", "These pastries are imported from French and delicately made with care with the customers taste buds in mind", @price, "")
-cinnamon_Rolls = Pastries.new("Cinnamon Rolls", "Frosted Pastry", "These are nicely made pastries with real cinnamon, from our renowned chefs, you will definitely enjoy these tasty treats.", @price, "")
-sweet_Tarts = Pastries.new("Sweet tarts", "Sweet Pastry", "Special Pastries", "30.99", "")
+tarte_Tatin = Pastries.new("Tarte tatin", "Pastry", "These pastries are imported from French and delicately made with care with the customers taste buds in mind", @price, "https://smittenkitchendotcom.files.wordpress.com/2019/11/perfect-apple-tarte-tatin.jpg?w=750")
 #marking the completion of a function or method.

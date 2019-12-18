@@ -28,6 +28,6 @@ get '/Cookies' do
   erb :cookies
 
 end
-get '/Pastries' do
-  erb :Sweets.erb
+get '/Sweets' do
+  erb :Sweets
 end
