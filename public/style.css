@@ -108,6 +108,8 @@ z-index: 1;
 
 .banner{
   background-color: red;
+  position: absolute;
+  top: 120px;
 }
 
 .item1:hover {
@@ -187,4 +189,16 @@ p {
   background-color: red;
   text-align: center;
   color: white;
+}
+
+#map {
+  border-bottom: 4px pink solid;
+}
+
+.header {
+  position: absolute;
+  top: 400px;
+  z-index: 0;
+  color: brown;
+  font-family: URW Chancery L, cursive;
 }
