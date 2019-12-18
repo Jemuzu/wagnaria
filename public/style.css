@@ -1,8 +1,11 @@
 h1 {
   font-family: URW Chancery L, cursive;
   text-align: center;
-  color: #654321;
+  color: black;
   margin: 0px;
+  position: absolute;
+  top: 35%;
+  z-index: 3;
 }
 
 .wallpaper {
@@ -63,6 +66,14 @@ border-bottom-color: black;
   border-bottom-color: black;
 }
 
+.item5 {
+  font-family: URW Chancery L, cursive;
+  font-size: 1.5em;
+  text-align: center;
+  border: 2px solid pink;
+  border-bottom-color: black;
+}
+
 .grid-container {
   display: grid;
   grid-row-gap: 10px;
@@ -70,6 +81,9 @@ border-bottom-color: black;
   margin: 0;
   grid-auto-flow: column;
   width: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: 4;
 }
 
 
@@ -87,6 +101,9 @@ border-top-left-radius: 50px;
 border-top-right-radius: 50px;
 border-bottom-left-radius: 50px;
 border-bottom-right-radius: 50px;
+position: absolute;
+top: 200px;
+z-index: 1;
 }
 
 .banner{
@@ -113,6 +130,11 @@ border-bottom-right-radius: 50px;
   cursor: pointer;
 }
 
+.item5:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: #654321;
@@ -126,4 +148,13 @@ h2 {
   background-color: pink;
   font-family: URW Chancery L, cursive;
   font-size: 1.5em;
+}
+
+.location-title {
+font-size: 2em;
+}
+
+.text {
+  background-color: pink;
+  font-family: URW Chancery L, cursive;
 }

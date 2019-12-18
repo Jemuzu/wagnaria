@@ -41,3 +41,7 @@ tarte_Tatin = Pastries.new("Tarte tatin", "Pastry", "These pastries are imported
 cinnamon_Rolls = Pastries.new("Cinnamon Rolls", "Frosted Pastry", "These are nicely made pastries with real cinnamon, from our renowned chefs, you will definitely enjoy these tasty treats.", @price, "")
 sweet_Tarts = Pastries.new("Sweet tarts", "Sweet Pastry", "Special Pastries", "30.99", "")
 #marking the completion of a function or method.
+
+@@Staff = [James, Gustavo, Luis, Micheal, Claire]
+@@Cookies = [chocolate_Chip, oatmeal_Raisin, plain_Oatmeal, christmas_Cookies]
+@@Pastries = [tarte_Tatin, cinnamon_Rolls, sweet_Tarts]
